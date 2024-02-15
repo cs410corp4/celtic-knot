@@ -3,23 +3,20 @@
 let canvas = document.getElementById("canvas");
 let ctx = canvas.getContext("2d");
 
-/* Zac's shape */
-// WIP
-
-let x0 = 235;
-let y0 = 415;
-
-let x2 = x0 + 20;
-let y2 = y0 + 20;
-
-let x3 = x2;
-let y3 = y2;
-
-let x4 = x3;
-let y4 = y3;
-
 function drawZac() {
-    /* Blue rect */
+    // Zac's shape (WIP)
+    // 13-14-6
+    let x0 = 235;
+    let y0 = 415;
+
+    let x2 = x0 + 20;
+    let y2 = y0 + 20;
+
+    let x3 = x2;
+    let y3 = y2;
+
+    let x4 = x3;
+    let y4 = y3;
 
     ctx.fillStyle = "blue";
     ctx.beginPath();
@@ -29,7 +26,6 @@ function drawZac() {
     ctx.lineTo(x4, y4);
     ctx.fill();
 
-    ctx.fillStyle = "green";
     ctx.fillRect(235, 415, 20, 50);
     ctx.fillRect(300, 500, 20, 50);
 }
