@@ -30,15 +30,43 @@ function drawZac() {
     ctx.fillRect(300, 500, 20, 50);
 }
 
-function drawMoraa(){
+function drawWaliyat() {
+    ctx.beginPath();
+    ctx.moveTo(175, 190);
+    ctx.lineTo(190, 180);
+    ctx.lineTo(250, 250);
+    ctx.lineTo(240, 260);
+    ctx.lineTo(176, 190);
+    ctx.stroke();
+    ctx.fillStyle = "navy";
+    ctx.fill()
+   
+
 
     ctx.beginPath();
-    ctx.rotate(40 * Math.PI / 180);
-    ctx.rect(330, 150, 35, 25);
+    ctx.moveTo(107, 270);
+    ctx.lineTo(120, 260);
+    ctx.lineTo(170, 325);
+    ctx.lineTo(160, 340);
+    ctx.lineTo(107, 270);
     ctx.stroke();
+    ctx.fillStyle = "navy";
+    ctx.fill()
 
 
 }
+// Mora's function is some how conflicting with mine"
+
+
+// function drawMoraa(){
+
+//     ctx.beginPath();
+//     ctx.rotate(40 * Math.PI / 180);
+//     ctx.rect(330, 150, 35, 25);
+//     ctx.stroke();
+
+
+// }
 // The rest of the functions here
 // ...
 
@@ -46,5 +74,6 @@ function drawMoraa(){
 /* Call functions to draw everyone's shapes */
 
 drawZac();
-drawMoraa();
+//drawMoraa();
+drawWaliyat();
 // ...
