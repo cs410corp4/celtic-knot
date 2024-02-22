@@ -30,6 +30,15 @@ function drawZac() {
     ctx.fillRect(300, 500, 20, 50);
 }
 
+function drawMoraa(){
+
+    ctx.beginPath();
+    ctx.rotate(40 * Math.PI / 180);
+    ctx.rect(330, 150, 35, 25);
+    ctx.stroke();
+
+
+}
 // The rest of the functions here
 // ...
 
@@ -37,4 +46,5 @@ function drawZac() {
 /* Call functions to draw everyone's shapes */
 
 drawZac();
+drawMoraa();
 // ...
