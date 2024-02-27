@@ -54,6 +54,7 @@ function drawZac() {
 }
 
 function drawWaliyat() {
+
     ctx.beginPath();
     ctx.moveTo(175, 190);
     ctx.lineTo(190, 180);
@@ -64,16 +65,16 @@ function drawWaliyat() {
     ctx.fillStyle = "navy";
     ctx.fill()
 
-
-
     ctx.beginPath();
-    ctx.rotate(47 * Math.PI / 180);
-    ctx.rect(360, 90, 20, 16);
+    ctx.moveTo(107, 270);
+    ctx.lineTo(120, 260);
+    ctx.lineTo(170, 325);
+    ctx.lineTo(160, 340);
+    ctx.lineTo(107, 270);
     ctx.stroke();
     ctx.fillStyle = "navy";
     ctx.fill()
-
-
+    
 }
 
 function drawMoraa(){
