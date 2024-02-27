@@ -42,9 +42,25 @@ function drawMoraa(){
 // The rest of the functions here
 // ...
 
+function jack() {
+    const c = document.getElementById("myCanvas");
+        ctx.strokeStyle = "black";
+   
+        ctx.beginPath();
+        ctx.moveTo(180, 191);
+        ctx.lineTo(271, 114);
+        ctx.lineTo(329, 176);
+        ctx.lineTo(241, 258);
+        ctx.lineTo(180, 191);
+
+        // Fill Color
+        ctx.fillStyle = "#273D84"; 
+        ctx.fill(); 
+}
 
 /* Call functions to draw everyone's shapes */
 
 drawZac();
 drawMoraa();
 // ...
+jack();
