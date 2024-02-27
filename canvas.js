@@ -33,8 +33,8 @@ function drawZac() {
 function drawMoraa(){
 
     ctx.beginPath();
-    ctx.rotate(40 * Math.PI / 180);
-    ctx.rect(330, 150, 35, 25);
+    ctx.rotate(47 * Math.PI / 180);
+    ctx.rect(360, 90, 20, 16);
     ctx.stroke();
 
 
