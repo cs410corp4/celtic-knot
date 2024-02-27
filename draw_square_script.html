@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h1>HTML5 Canvas</h1>
+
+  <canvas id="myCanvas" width="500px" height="500px" style="border: 1px solid blue;"></canvas>
+
+  <script src="drawSquare.js"></script>
+  <script>
+    const canvas = document.getElementById("myCanvas");
+    const ctx = canvas.getContext("2d");
+
+    // Call the draw function from the external script
+    drawRotatedSquare(ctx, 250, 200, 25); // Adjust the position and size as needed
+  </script>
+</body>
+</html>
