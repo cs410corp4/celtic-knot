@@ -53,7 +53,6 @@ function drawZac() {
     //ctx.fillRect(300, 500, 20, 50);
 }
 
-
 function drawWaliyat() {
 
     ctx.beginPath();
