@@ -53,6 +53,29 @@ function drawZac() {
     //ctx.fillRect(300, 500, 20, 50);
 }
 
+function drawWaliyat() {
+    ctx.beginPath();
+    ctx.moveTo(175, 190);
+    ctx.lineTo(190, 180);
+    ctx.lineTo(250, 250);
+    ctx.lineTo(240, 260);
+    ctx.lineTo(176, 190);
+    ctx.stroke();
+    ctx.fillStyle = "navy";
+    ctx.fill()
+
+
+
+    ctx.beginPath();
+    ctx.rotate(47 * Math.PI / 180);
+    ctx.rect(360, 90, 20, 16);
+    ctx.stroke();
+    ctx.fillStyle = "navy";
+    ctx.fill()
+
+
+}
+
 function drawMoraa(){
 
     ctx.beginPath();
@@ -62,7 +85,7 @@ function drawMoraa(){
 
 
 }
-// The rest of the functions here
+
 function drawMat() {
     // Mat's shape 13
 
@@ -71,7 +94,7 @@ function drawMat() {
 
     let x1 = 99;
     let y1 = 402;
-    
+
     let x2 = x0 + 31;
     let y2 = y1 + 105;
 
@@ -95,7 +118,7 @@ function drawMat() {
 function jack() {
     const c = document.getElementById("myCanvas");
         ctx.strokeStyle = "black";
-   
+
         ctx.beginPath();
         ctx.moveTo(180, 191);
         ctx.lineTo(271, 114);
@@ -104,13 +127,14 @@ function jack() {
         ctx.lineTo(180, 191);
 
         // Fill Color
-        ctx.fillStyle = "#273D84"; 
-        ctx.fill(); 
+        ctx.fillStyle = "#273D84";
+        ctx.fill();
 }
 
 /* Call functions to draw everyone's shapes */
 
 drawZac();
+drawWaliyat();
 drawMat();
 drawMoraa();
 jack();
