@@ -74,7 +74,7 @@ function drawWaliyat() {
     ctx.stroke();
     ctx.fillStyle = "navy";
     ctx.fill()
-    
+
 }
 
 function drawMoraa(){
@@ -146,8 +146,8 @@ function jack() {
 /* Call functions to draw everyone's shapes */
 
 drawZac();
+jack();
 drawWaliyat();
 drawMat();
 drawMoraa();
 drawSergio();
-jack();
